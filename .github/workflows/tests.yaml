@@ -22,5 +22,6 @@ jobs:
         pip install .
         pip install -r requirements-dev.txt
     - name: Test with pytest
-      run: |
-        pytest tests
+        run: pytest -v tests --color yes --cov tests --cov-report xml
+
+    - uses: codecov/codecov-action@v3
