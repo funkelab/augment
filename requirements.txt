@@ -1,7 +1,0 @@
-numpy
-scipy
-h5py
-twine>=1.13.0
-wheel>=0.33.1
-setuptools>=40.8.0
-
